@@ -21,7 +21,7 @@ app.post("/user" , (req,res)=>{
     data.user.push(newData)
     res.json({
         message : "data successfull ok",
-        daya : data.user
+        data : data.user
     })
 })
 
